@@ -1,0 +1,56 @@
+.mainCalcContainer {  
+  height: 60vh;
+  padding: 200px 550px;
+}
+
+.mainCalcContainer.lightThemeStyle {
+  background-color: white
+}
+
+.mainCalcContainer.darkThemeStyle {
+  background-color: black  
+}
+
+.mainCalc {
+  border: 1px solid
+}
+
+.calcRow {
+    display: flex;
+    width: 100%;
+    height: 10vh;    
+}
+
+
+.textContainer {
+  width: 100%;
+  height: 10vh;
+}
+
+.btnContainer {
+  width: 25%;
+}
+
+button {
+  height: 10vh;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button.lightThemeStyle{
+  background-color: #f0f0f0; 
+  color: black
+}
+button.darkThemeStyle{
+  background-color: #666; 
+  color: white
+}
+
+input {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
